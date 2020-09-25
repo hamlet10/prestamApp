@@ -1,0 +1,31 @@
+
+<ejs-grid [dataSource]="contacts" allowPaging='true' [pageSettings]='pageSettings' >
+    <e-columns>
+      <e-column
+        field="contactNumber"
+        headerText="Codigo"
+        textAlign="Right"
+        width="90"
+      ></e-column>
+      <e-column
+        field="identificationNumber"
+        headerText="Cedula"
+        width="120"
+      ></e-column>
+      <e-column
+        field="name"
+        headerText="Nombre"
+        textAlign="Right"
+        format="C2"
+        width="90"
+      ></e-column>
+      <e-column
+        field="lastName"
+        headerText="Apellido"
+        textAlign="Right"
+        format="yMd"
+        width="120"
+      ></e-column>
+    </e-columns>
+  </ejs-grid>
+  
